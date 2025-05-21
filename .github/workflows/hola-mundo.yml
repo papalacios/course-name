@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hola mundo
-        run: python ../../hola_mundo.py #or just python hola_mundo.py
+        run: python ../../hello_world.py #or just python hola_mundo.py
