@@ -1,0 +1,12 @@
+#On /.github/workflows
+#hola-mundo.yml
+name: hola-mundo 
+on:
+  push:
+    branches: [ "aprendiendo-github-actions" ]
+jobs:
+  hola-mundo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hola mundo
+        run: python ../../hola_mundo.py #or just python hola_mundo.py
